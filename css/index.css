@@ -14,7 +14,7 @@ body {
 }
 .container {
   width: 800px;
-  height: 2140px;
+  height: 2205px;
   border: solid rgb(178, 215, 240);
   margin: 0 auto;
 }
@@ -55,7 +55,6 @@ body {
   transition: transform 0.5s ease;
   opacity: 0.6;
   z-index: 1;
-  background: url(/img/I22.jpg) center / cover no-repeat;
 }
 
 .photo:hover {
@@ -106,26 +105,20 @@ body {
 }
 
 #my-photo {
-  text-align: center;
-  justify-content: center;
   padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
 }
 .photo1 {
-  display: flex;
-  content: url(/img/i.jpg);
-  width: 50%;
   transition: transform 0.5s ease;
   opacity: 0.6;
+  flex: 1 1 auto;
 }
 .photo1:hover {
   transform: scale(1.2);
   opacity: 1;
 }
 .photo2 {
-  content: url(/img/i2.jpg);
-  width: 40%;
   transition: transform 0.5s ease;
   opacity: 0.6;
 }
@@ -134,18 +127,15 @@ body {
   opacity: 1;
 }
 .photo3 {
-  content: url(/img/i3.jpg);
-  width: 45%;
   transition: transform 0.5s ease;
   opacity: 0.6;
+  flex: 1 1 auto;
 }
 .photo3:hover {
   transform: scale(1.2);
   opacity: 1;
 }
 .photo4 {
-  content: url(/img/i4.jpg);
-  width: 45%;
   transition: transform 0.5s ease;
   opacity: 0.6;
 }
@@ -154,10 +144,6 @@ body {
   opacity: 1;
 }
 .photo5 {
-  content: url(/img/house.jpg);
-
-  width: 45%;
-
   transition: transform 0.5s ease;
   opacity: 0.6;
 }
@@ -169,6 +155,7 @@ body {
 
 #footer {
   display: flex;
+  float: right;
 }
 #footer ul {
   display: flex;
