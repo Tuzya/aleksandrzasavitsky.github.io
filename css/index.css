@@ -1,0 +1,202 @@
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/img/fon.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 50px;
+}
+.container {
+  width: 800px;
+  height: 2200px;
+  border: solid rgb(178, 215, 240);
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  height: 150px;
+}
+.titile-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url(/img/deer.jpg) center / cover no-repeat;
+}
+.titile-block::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+.titile {
+  position: relative;
+  z-index: 1;
+}
+.photo {
+  width: 20%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.5s ease;
+  opacity: 0.6;
+  z-index: 1;
+  background: url(/img/I22.jpg) center / cover no-repeat;
+}
+
+.photo:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.navigation ul {
+  display: flex;
+  background-color: rgb(178, 215, 240);
+  opacity: 0.8;
+}
+.navigation li a {
+  padding: 20px;
+  display: flex;
+
+  text-decoration: none;
+
+  border-right: 1px solid grey;
+  font-weight: bolder;
+  transition: background 0.3s ease;
+  color: black;
+}
+.navigation li a:hover {
+  background: rgb(194, 255, 230);
+}
+.content {
+  display: flex;
+}
+.text {
+  padding: 20px;
+  width: 60%;
+  line-height: 30px;
+  border-right: 3px solid rgb(178, 215, 240);
+  border-bottom: 3px solid rgb(178, 215, 240);
+}
+.skill {
+  width: 40%;
+  padding: 20px;
+  border-left: 3px solid rgb(178, 215, 240);
+  border-bottom: 3px solid rgb(178, 215, 240);
+}
+.skills li {
+  padding: 10px 0;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+.skills li:hover {
+  transform: translateX(10px);
+}
+
+#my-photo {
+  text-align: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+.photo1 {
+  display: flex;
+  content: url(/img/i.jpg);
+  width: 50%;
+  transform: translate(14px, 20px);
+  transition: transform 0.5s ease;
+  opacity: 0.6;
+}
+.photo1:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+.photo2 {
+  content: url(/img/i2.jpg);
+  width: 40%;
+  transform: translate(450px, -280px);
+  transition: transform 0.5s ease;
+  opacity: 0.6;
+}
+.photo2:hover {
+  transform: scale(1.2);
+  transform: translate(450px, -340px);
+
+  opacity: 1;
+}
+.photo3 {
+  content: url(/img/i3.jpg);
+
+  width: 45%;
+  transform: translate(20px, -350px);
+  transition: transform 0.5s ease;
+  opacity: 0.6;
+}
+.photo3:hover {
+  transform: scale(1.2);
+  transform: translate(20px, -500px);
+
+  opacity: 1;
+}
+.photo4 {
+  content: url(/img/i4.jpg);
+
+  width: 45%;
+  transform: translate(400px, -700px);
+  transition: transform 0.5s ease;
+  opacity: 0.6;
+}
+.photo4:hover {
+  transform: scale(1.2);
+  transform: translate(400px, -800px);
+
+  opacity: 1;
+}
+.photo5 {
+  content: url(/img/house.jpg);
+
+  width: 45%;
+  transform: translate(20px, -800px);
+  transition: transform 0.5s ease;
+  opacity: 0.6;
+}
+.photo5:hover {
+  transform: scale(1.2);
+  transform: translate(20px, -900px);
+  opacity: 1;
+}
+
+#footer {
+  transform: translate(0px, -720px);
+}
+#footer ul {
+  display: flex;
+  background-color: rgb(178, 215, 240);
+  opacity: 0.8;
+}
+#footer li a {
+  padding: 20px;
+  display: flex;
+  text-decoration: none;
+  border-right: 1px solid grey;
+  font-weight: bolder;
+  transition: background 0.3s ease;
+  color: black;
+}
+#footer li a:hover {
+  background: rgb(194, 255, 230);
+}
